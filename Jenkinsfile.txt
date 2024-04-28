@@ -48,7 +48,7 @@ pipeline {
                 echo "Deploying the code to the production environment ${PRODUCTION_ENVIRONMENT}"
             }
         }
-        stage('Complete') {
+        stage('Completed') {
             steps {
                 echo "Completed!!"
             }
